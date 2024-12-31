@@ -1,13 +1,19 @@
-name: Build and Release
+name: Build Alarm App
 
 on:
   push:
     tags:
-      - 'v*'
+      - 'alarm-v*'
+    paths:
+      - 'TASK-3-ALARM-APP/alarm_app/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: TASK-3-ALARM-APP/alarm_app
+
     steps:
       - uses: actions/checkout@v3
 
@@ -32,6 +38,6 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: build/app/outputs/flutter-apk/app-release.apk
+          files: TASK-3-ALARM-APP/alarm_app/build/app/outputs/flutter-apk/app-release.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

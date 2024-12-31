@@ -1,4 +1,4 @@
-import 'package:alarm_app/alarm.dart';
+import 'package:alarm_app/features/alarm/domain/alarm.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_ce/hive.dart';
 

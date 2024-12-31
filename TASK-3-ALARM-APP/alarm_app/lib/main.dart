@@ -1,7 +1,7 @@
 import 'package:alarm/alarm.dart';
-import 'package:alarm_app/alarm_service.dart';
-import 'package:alarm_app/hive_adapter.dart';
-import 'package:alarm_app/home_screen.dart';
+import 'package:alarm_app/features/alarm/services/alarm_service.dart';
+import 'package:alarm_app/core/db/hive_adapter.dart';
+import 'package:alarm_app/features/home/presentation/home_screen.dart';
 import 'package:auto_start_flutter/auto_start_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_ce_flutter/hive_flutter.dart';

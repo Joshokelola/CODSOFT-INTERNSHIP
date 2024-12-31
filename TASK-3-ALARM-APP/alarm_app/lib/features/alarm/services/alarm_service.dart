@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:alarm/alarm.dart' as al;
 import 'package:alarm/model/alarm_settings.dart';
 import 'package:alarm/model/notification_settings.dart';
-import 'package:alarm_app/alarm.dart';
+import 'package:alarm_app/features/alarm/domain/alarm.dart';
 import 'package:alarm_app/main.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

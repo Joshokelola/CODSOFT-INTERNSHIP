@@ -5,7 +5,7 @@ nextTypeId: 1
 types:
   Alarm:
     typeId: 0
-    nextIndex: 5
+    nextIndex: 6
     fields:
       id:
         index: 0
@@ -17,3 +17,5 @@ types:
         index: 3
       alarmTone:
         index: 4
+      allowVibration:
+        index: 5

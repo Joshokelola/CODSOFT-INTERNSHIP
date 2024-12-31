@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:alarm/model/alarm_settings.dart';
-import 'package:alarm_app/alarm.dart';
-import 'package:alarm_app/alarm_ring_screen.dart';
-import 'package:alarm_app/alarm_service.dart';
-import 'package:alarm_app/alarm_setting_screen.dart';
+import 'package:alarm_app/features/alarm/domain/alarm.dart';
+import 'package:alarm_app/features/alarm/presentation/alarm_ring_screen.dart';
+import 'package:alarm_app/features/alarm/services/alarm_service.dart';
+import 'package:alarm_app/features/alarm/presentation/alarm_setting_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_ce/hive.dart';
 import 'package:intl/intl.dart';

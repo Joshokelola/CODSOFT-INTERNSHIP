@@ -1,7 +1,7 @@
 import 'dart:io';
-import 'package:alarm_app/alarm.dart';
-import 'package:alarm_app/alarm_service.dart';
-import 'package:alarm_app/unique_id.dart';
+import 'package:alarm_app/features/alarm/domain/alarm.dart';
+import 'package:alarm_app/features/alarm/services/alarm_service.dart';
+import 'package:alarm_app/core/utils/unique_id.dart';
 import 'package:flutter/material.dart';
 
 class AlarmSettingScreen extends StatefulWidget {
